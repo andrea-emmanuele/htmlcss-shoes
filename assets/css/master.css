@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+}
+
+header nav {
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    font-size: 22px;
+}
+
+header nav a {
+    color: #FFF;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+i.circle {
+    background: #333;
+    padding: 4px 8px;
+    border-radius: 50%;
+}
+
+main > section {
+    height: 100vh;
+    background: #008000;
+}
+
+main > section:first-child {
+    height: 100vh;
+    background: #FF0000;
+}
+
+main > section:last-child {
+    height: 100vh;
+    background: #FFFF00;
+}
