@@ -10,10 +10,6 @@
 
 /*fixed navbar*/
 
-header {
-    position: relative;
-}
-
 header nav {
     position: fixed;
     top: 2%;
